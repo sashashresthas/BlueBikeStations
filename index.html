@@ -9,12 +9,17 @@
             font-family: Arial, sans-serif;
             margin: 40px;
         }
+        .map-container {
+            width: 100%; /* Adjust width as needed */
+            height: 600px; /* Adjust height as needed */
+            border: none; /* Removes the default iframe border */
+        }
     </style>
 </head>
 <body>
     <h1>BlueBike Station Locations</h1>
 
-
-    <iframe>map_plot.html<iframe>
+ <!-- Embedding the Plotly map -->
+    <iframe src="map_plot.html" class="map-container"></iframe>
 </body>
 </html>
